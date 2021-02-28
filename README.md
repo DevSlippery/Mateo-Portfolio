@@ -1,8 +1,8 @@
-# PAPA React JS Resume Starter Pack and Digital Portfolio
+# Mateo Acevedo Digital Portfolio
 
-![PAPA React JS Portfolio Starter Pack](resume-screenshot.jpg?raw=true "PAPA React JS Portfolio Stater Pack ")
+![Mateo Acevedo Portfolio](resume-screenshot.png?raw=true "Mateo Acevedo Portfolio")
 
-### <a href="https://resume-portfolio-starter-pack.herokuapp.com">LIVE DEMO</a>
+### <a href="">LIVE DEMO</a>
 
 ## Resume Starter Pack Description
 
@@ -42,7 +42,6 @@ Run the command `npm run init` to set up a new or existing npm package. Then run
 3) Create a New App
 4) Choose Github as a Deployment Method
 5) Select the correct resume repository that you uploaded in Step 1
-
 ## Credits
 
 ##### Original Idea

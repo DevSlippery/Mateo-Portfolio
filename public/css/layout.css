@@ -33,9 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
+   background:#2b2b2b;
    text-align: center;
    overflow: hidden;
 }
@@ -62,11 +60,11 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .1);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #746666;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -78,8 +76,7 @@ header .banner-text h3 a {
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
+   border-color: #fff;
 }
 
 /* header social links */
@@ -95,7 +92,6 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -187,7 +183,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #fff;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -198,18 +194,18 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #2b2b2b;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #373030;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 400px;
+   height: 300px;
+   border-radius: 10px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -236,7 +232,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #2b2b2b;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -249,13 +245,15 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color: #fff;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #fff;
    padding-bottom: 6px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color: #fff;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -264,11 +262,11 @@ ul#nav li.current a { color: #F06000; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid #faf4f4;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #94989b;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -298,13 +296,13 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	background: #fff;
   	height: 42px;
   	border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #fff;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,7 +316,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #666464;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -427,7 +425,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #2b2b2b;
 }
 
 /* Portfolio Content */
@@ -856,6 +854,7 @@ call-to-action .button {
 	outline: none;
    font-size: 15px;
    line-height: 24px;
+   border-radius: 10px;
    width: 65%;
 }
 #contact input:focus,
