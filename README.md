@@ -2,7 +2,7 @@
 
 ![Mateo Acevedo Portfolio](resume-screenshot.png?raw=true "Mateo Acevedo Portfolio")
 
-### <a href="">LIVE DEMO</a>
+### <a href="https://devslippery-portfolio.netlify.app/">LIVE DEMO</a>
 
 ## Resume Starter Pack Description
 
